@@ -2,7 +2,7 @@ import sqlite3
 
 #function for creating table for posts
 def create_posts():
-    connexion = sqlite3.connect('fb.db')
+    connexion = sqlite3.connect('fb.db') #created database
     cur = connexion.cursor()
     create_posts_table='''CREATE TABLE IF NOT EXISTS fbposts(
                                 post_id TEXT, 

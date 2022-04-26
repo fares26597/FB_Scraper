@@ -1,10 +1,12 @@
 
 1 - Files Description
-There are 4 main files:
+There are 6 main files:
 	*./src/sql_mng.py: file containing database management functions
 	*./src/scraper.py: file containg scraping function
 	*./src/main.py: file containing the main instructions of the app
 	*./src/test.py: file for testing
+	*./src/fb.db: databse file (to be created)
+	*./Requirements.txt: file containing a description of the required dependencies.
 
 2 - Usage:
 I couldn't get the app to be as user-friendly as possible, so exectuion of the main.py commands is a little 	unconventional.
@@ -12,12 +14,12 @@ I couldn't get the app to be as user-friendly as possible, so exectuion of the m
 
 	2 - In the terminal, run the following Fast API command: uvicorn main:app --reload
 
-	3 - The number of messages will appear on the terminal. Wait for the following message:
+	3 - A number of messages will appear on the terminal. Wait for the following message:
 	"INFO: Application startup complete."
 
 	4 - Access or refresh the following url in your default browser: http://127.0.0.1:8000/
 
-	5 - The user input fields will appear, enter the facebook page, number of desired scrolls 
+	5 - The user input fields will appear, enter the name of the facebook page, number of desired scrolls 
 	and the type of table you want to return (posts or comments? case sensitive)
 
 	6 - A few warnings will appear, but they can be ignored
